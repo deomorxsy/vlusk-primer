@@ -30,7 +30,7 @@ flask-cors==4.0.0
 pylint==3.0.3
 
 # Tests
-pytest==7.4.3
+pytest==9.0.3
 
 # REST API documentation
 swagger-ui-py==23.9.23
