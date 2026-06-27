@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "vlusk-primer"
+abstract: "a fullstack PoC monorepo for data visualization with Python/Flask and Node/Vue.js"
+authors:
+- name: deomorxsy
+  orcid: https://orcid.org/0009-0002-8685-3460
+  git: https://github.com/deomorxsy/
+- name: Marco Levy
+  orcid: unknown
+  git: https://github.com/LevyMarco/
+- name: Henrique Medeiros
+  orcid: unknown
+  git: https://github.com/Medeiroshenrique/
+- name: João Pedro Medeiros
+  orcid: unknown
+  git: https://github.com/JoaoPedro-Medeiros/
+- name: Matheus Melo
+  orcid: unknown
+  git: https://github.com/MatheusMeloMaster/
+version: v1.0.0
+doi: 10.5281/zenodo.20974277
+date-released: 2024-03-13
+url: "https://github.com/deomorxsy/vlusk-primer"
