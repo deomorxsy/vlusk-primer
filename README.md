@@ -1,12 +1,13 @@
 # vlusk-primer
 > Simple fullstack and monorepo PoC for data visualization, using Python/Flask, Node/Vue.js and Postgres, deployed as containers handling backend, frontend and database. Test it locally with docker-compose/k3s, running the individual container images or via scripts.
 
-container images at [hub]().
+container images at [hub](https://hub.docker.com/u/deomorxsy/vlusk-primer).
 
 Featuring:
 - Backend:Python/Flask
     - ~Session-Cookie Authentication: flask_login~
-    - PyJWT
+    - JWT Authentication: PyJWT
+    - JWT Authorization: HttpOnly Cookie
 - Frontend: Node/Vue.js
     - Build tooling: [Vite](https://vitejs.dev/guide/)
     - HTTP requests: [Axios](https://axios-http.com/docs/intro)
@@ -16,7 +17,7 @@ Featuring:
     - Visualization: [vue-chartjs](https://vue-chartjs.org/)
 - Database ORM: SQLAlchemy
     - postgres for dataframe storage
-    - sqlite3 for session cache [?]
+    - redis for session cache
 
 
 
