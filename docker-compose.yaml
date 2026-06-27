@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   frontend:
-    restart: always
+    #restart: always
     environment:
       VAR: example
     build:
@@ -10,9 +10,9 @@ services:
       - "5173:5173"
     volumes:
       - "./frontend/dist:/usr/share/nginx/html"
-    command: "npm run dev" #without build
+    command: "npm run build" #without dev
   backend:
-    restart: always
+    #restart: always
     build:
       context: "./backend/"
       target: builder
